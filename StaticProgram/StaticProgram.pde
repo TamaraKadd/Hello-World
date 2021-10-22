@@ -8,6 +8,7 @@ String c = "\tHello!\t   ";
 String d = "to"; 
 String e = "me"; 
 String f = "."; 
+//counting
 println(a, b, c, d, e + f); //Two types of concatentaion
 String g = "Tamara";
 String h = "Amazing";

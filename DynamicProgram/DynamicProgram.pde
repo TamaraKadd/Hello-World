@@ -1,9 +1,41 @@
-//Global Variables 
+//Global Variables
+//Called Initializing Variables
+String g;
+String h;
+String i;
+String j;
+String k;
+String l;
+int ten;
+String m;
+String n ;
+int one;
 
-void setup() {}//End Setup()
+void setup() {
+  //
+  //
+  //Called Declaring Values
+  g = "Tamara";
+  h = "Amazing";
+  i = "Kaddoura";
+  j = "counts";
+  k = "to";
+  l = "10";
+  ten = int(l);
+  m = "by";
+  n = "1";
+  one = int(n);
+  //
+  println(g, h, i, j, k, l);
+}//End setup()
 
-void draw() {}//End draw()
+void draw() {
+  ten = ten + one;
+   println(g, h, i, j, k, ten, m, n);
+}//End draw()
 
-void keyPressed() {}//end keyPressed()
+void keyPressed() {
+}//End keyPressed()
 
-void mousePressed() {}//end mousePressed()
+void mousePressed() {
+}//End mousePressed()
