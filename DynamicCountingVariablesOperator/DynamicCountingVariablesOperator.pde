@@ -9,7 +9,7 @@ String l;
 int ten, hundred, thousand, million, newCountingVariable_1, newCountingVariable_2;
 String m;
 String n ;
-int one;
+int two;
 
 void setup() {
   //
@@ -27,7 +27,7 @@ void setup() {
   million = thousand * thousand;
   m = "by";
   n = "1";
-  one = int(n);
+  two = int(n);
   newCountingVariable = ten * million + one / thousand; //user defined
   newCountingVariable_2 = ;
   // newCountingVariable is a decimal
@@ -43,7 +43,7 @@ Modulus or Modulo: %
 */
 //
 void draw() {
-  ten = ten + one;
+  ten = ten + two;
   println(g + h, i, j, k, ten, m, n);
   println(m, newCountingVariable);
 }//End draw()
