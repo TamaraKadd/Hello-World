@@ -14,7 +14,7 @@ int one;
 void setup() {
   //
   //
-  //Called Declaring Values
+  //Called Declaring, Assigning, Populating Values
   g = "Tamara";
   h = "Amazing";
   i = "Kaddoura";
@@ -26,9 +26,16 @@ void setup() {
   n = "1";
   one = int(n);
   //
-  println(g, h, i, j, k, l);
+  println(g + h, i, j, k, l);
+  //
 }//End setup()
-
+//
+/*Use following operators (See Processing.org Reference / Opertators
+Arithmetic Operators: +, -, *, /
+Assignmnet Operators: +=, -=, *=, /=
+Modulus or Modulo: %
+*/
+//
 void draw() {
   ten = ten + one;
    println(g, h, i, j, k, ten, m, n);
