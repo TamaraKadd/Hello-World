@@ -28,7 +28,7 @@ void setup() {
   m = "by";
   n = "1";
   two = int(n);
-  newCountingVariable = ten * million + one / thousand; //user defined
+  newCountingVariable = ten * million + two / thousand; //user defined
   newCountingVariable_2 = ;
   // newCountingVariable is a decimal
   //
